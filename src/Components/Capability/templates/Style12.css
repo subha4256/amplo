@@ -1,0 +1,9 @@
+.h-40-twelves{
+    height: 40px !important;
+}
+.h-60-twelves{
+    height: 60px !important;
+}
+.lineclamp2{
+    -webkit-line-clamp:2 !important;
+}

@@ -1,0 +1,253 @@
+﻿/* rgb(237, 114, 1); */
+/* ----------------------------------------Comon Header section------------------------- */
+.head-pannel-left img{
+    width:90px
+}
+.head-pannel-left label{
+    color: rgb(231, 108, 55);
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+    font-family: 'Segoe UI';
+}
+.two-separatebox{
+    display: flex;
+    justify-content: end;
+}
+.name-box {
+    background-color: #e6e6e6;
+    min-width: 225px;
+    padding: 10px 5px;
+    text-align: center;
+}
+.name-box:first-child{
+    margin-right: 15px;
+}
+.name-box h3{
+    color: rgb(37, 36, 35);
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+.name-box p{
+    color: rgb(18, 35, 159);
+    font-size: 17px;
+    font-style: italic;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.score-left-pannel{
+    background-color: #f5c4af;
+    min-height: 500px;
+    padding: 10px;
+}
+.score-left-pannel-heading{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 100px;
+}
+/* ----------------------------------------Strategy Assessment Kedar Pandya------------------------- */
+.comon-target{
+    box-shadow: 0 0 20px #a59f9f;
+    padding: 10px 10px 35px 10px;
+    min-height: 290px;
+}
+.comon-target h2 .fa{
+    font-size: 12px;
+    position: relative;
+    top:-5px;
+    left: 5px;
+}
+.growth-target{
+    background-color: #e6e6e6;
+}
+.share-target{
+    background-color: #a0d1ff;
+}
+.margin-target{
+    background-color: #f5c4af;
+}
+.roce-target {
+    background-color: #c499ca;
+}
+.comon-target h3{
+    color: rgb(37, 36, 35);
+    font-size: 19px;
+}
+.comon-target h2{
+    color: rgb(26, 172, 64);
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.comon-target h4{
+    color: rgb(37, 36, 35);
+    font-size: 15px;
+}
+.comon-target h5{
+    color: rgb(37, 36, 35);
+    font-size: 14px;
+}
+.comon-target p{
+    color: rgb(37, 36, 35);
+    height: 70px;
+    overflow: hidden;
+    background: #f93a00;
+    line-height: 14px;
+    font-size: 12px;
+    padding: 4px 6px;
+    margin-bottom: 0;
+}
+.up-arrow{
+    font-size: 13px;
+    margin-left: 3px;
+    position: relative;
+    top: 6px;
+}
+.share-target p{
+    background-color: #15fe00;
+}
+.main-border-div{
+    border-top:3px solid #0d6abf;
+    display: flex;
+    flex-wrap: wrap;
+}
+.comon-three-div{
+    flex: 0 1 33%;
+    padding: 10px 20px;
+}
+.comon-three-div:first-child{
+    border-right:3px solid #0d6abf;
+}
+.comon-three-div:nth-child(2){
+    border-right:3px solid #0d6abf;
+}
+.comon-three-div h3{
+    color: rgb(18, 35, 159);
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 37px;
+    margin-top: 15px;
+}
+.comon-three-div p{
+    color: rgb(37, 36, 35);
+    text-align: center;
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 37px;
+}
+.four-small-box {
+    border: 1px solid #eb9375;
+    min-height: 150px;
+    text-align: center;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+.four-small-box h3 {
+    color: rgb(231, 108, 55);
+    font-size: 21px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.four-small-box h2 {
+    color: rgb(37, 36, 35);
+    font-size: 45px;
+}
+.bg-type-white{
+    background-color: #fff;
+}
+.bg-type-grey{
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.competitive-label{
+    color: rgb(37, 36, 35);
+    height: 70px;
+    overflow: hidden;
+    background: #15fe00;
+    line-height: 14px;
+    font-size: 12px;
+    padding: 4px 6px;
+    margin-bottom: 0;
+}
+.neutral-label{
+    background-color: #a1c800;
+    color: rgb(37, 36, 35);
+    height: 70px;
+    overflow: hidden;
+    line-height: 14px;
+    font-size: 12px;
+    padding: 4px 6px;
+    margin-bottom: 0;
+}
+.assesment-table table{
+    border: 1px solid #000;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.assesment-table table thead tr th{
+    background-color: #f5c4af;
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #000;
+    padding: 7px 0;
+    font-size: 15px;
+}
+.assesment-table table tbody tr td{
+    border-bottom: 5px solid #f5c4af ;
+    padding: 7px 7px;
+    color: #000;
+    font-size: 13px;
+}
+
+.border-rightlightpink{
+    border-right: 5px solid #f5c4af ;
+}
+.com-disadv{
+    background-color: #e66c37;
+    color: #fff;
+}
+.com-neutral{
+    background-color: #f3f300;
+    color: rgb(18, 35, 159);
+}
+.com-adv{
+    background-color: #00bd19;
+    color: rgb(18, 35, 159)
+}
+.comon-legend{
+    padding: 10px 10px;
+    font-size: 14px;
+    min-width: 120px;
+    text-align: center;
+    font-weight: 500;
+}
+.stratgy-heading{
+    font-size: 21px;
+    font-weight: 800;
+    color:  rgb(18, 35, 159);
+}
+.td-com-disadv{
+    background-color: #e66c37;
+}
+.td-com-neutral{
+    background-color: #f3f300;
+}
+.td-com-adv{
+    background-color: #00bd19;
+}
+.observation{
+    position: relative;
+}
+.data-updown{
+    position: absolute;
+    bottom: 0;
+    left:5px;
+}
+.td-com-disadv {
+    background-color: #e66c37;
+}

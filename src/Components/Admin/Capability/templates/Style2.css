@@ -1,0 +1,50 @@
+.h-90{
+    height: 90px;
+}
+.h-56{
+    height: 56px;
+}
+.two-box-custom{
+    position: relative;
+    height: 225px !important;
+    width: 48px;
+}
+.two-box-custom .vtext{
+    position: absolute;
+    top: 8px;
+    height: 50px;
+    width: 215px;
+    margin: 0;
+    left: 40px;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+
+.fl-sl3{
+    position: absolute;
+    position: absolute;
+    right: 6px;
+    bottom: 5px;
+    z-index: 9;
+}
+.rotate-textbox-style2 {
+    transform: rotate(-90deg) !important;
+    position: absolute !important;
+    right: 0 !important;
+    transform: translate(90deg) !important;
+    left: -75px !important;
+    bottom: 100px !important;
+    width: 195px;
+}
+.twotextboxwidth{
+    width: 165px !important
+}
+.lineclamp2{
+    -webkit-line-clamp:2 !important;
+}
+.pstyle2 .twotextboxwidth{
+    margin-bottom: 2px !important;
+}
+/* .box{
+    margin: 0 0 2px 0 !important;
+} */

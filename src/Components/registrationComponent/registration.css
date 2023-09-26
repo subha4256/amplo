@@ -1,0 +1,469 @@
+/*---------------------heading area-----------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,600i,700,700i,800,900&display=swap');
+* {
+    font-family: Montserrat;
+}
+
+@import url('https://www.fontify.me/wf/7116669ff62ea6ce905b50766eaca6b8');
+
+/*------------------------------------nav manue----------------------------------*/
+
+
+
+/*--------------------------------------body area------------------------*/
+
+.main-header {
+    text-align: center;
+}
+
+.validation-border-color {
+    border-color: red !important;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 37.5px;
+    font-weight: bold !important;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.75;
+    letter-spacing: -0.09px;
+    text-align: center;
+    color: #212529;
+}
+
+h5 {
+    font-size: 18.8px;
+    font-weight: 600;
+    line-height: 1.49;
+    letter-spacing: -0.05px;
+    margin-bottom: 20px !important;
+    letter-spacing: -0.05px;
+    color: #212529;
+}
+
+.container {
+    padding: 60px !important;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 37.5px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.75;
+    letter-spacing: -0.09px;
+    text-align: center;
+    color: #212529;
+}
+
+.main-header {
+    text-align: center;
+}
+
+.form-control {
+    margin-bottom: 24px;
+    border: 1px solid #a6a6a6;
+    font-size: 13px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    height: 40px !important;
+}
+
+#submit {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h5 {
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+input[text]:placeholder {
+    height: 24px;
+    width: 159px;
+    color: rgba(255, 8, 8, 0.6);
+    font-size: 13.6px;
+    letter-spacing: 0.12px;
+    line-height: 24px;
+}
+
+#checkbox {
+    height: 18px;
+    width: 18px;
+    border-radius: 2px;
+    border: solid 1px rgba(0, 0, 0, 0.32);
+    background-color: #ffff;
+}
+
+.form-check-input {
+    height: 18px;
+    width: 18px;
+    background-color: #425A70;
+}
+
+.have-account {
+    height: 1.6%;
+    color: #56575A;
+    font-size: 14px !important;
+    font-weight: bold;
+    letter-spacing: -0.05px;
+    line-height: 20px;
+    padding-right: 20px !important;
+}
+
+.create-account {
+    color: #fff;
+    background: #03c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.04px;
+    line-height: 15px;
+}
+
+.create-account:hover {
+    color: #03c !important;
+    background: #ffff !important;
+}
+
+.login {
+    color: #03c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.04px;
+    line-height: 15px;
+}
+
+.login:hover {
+    background: #03c;
+    color: #fff;
+}
+
+.login-anchor:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-anchor {
+    color: inherit;
+}
+
+button {
+    box-sizing: border-box;
+    height: 40px;
+    width: 380px;
+    border: 1px solid #083AC8;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+div.col {
+    margin-right: 24px;
+}
+
+#col {
+    border-left: 1.2px solid #A6A6A6;
+}
+
+.create-account:hover {
+    background: #03c;
+    border-color: #03c;
+    color: #ffffff;
+}
+
+button {
+    border-radius: 5px !important;
+    color: #03c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.04px;
+    line-height: 15px;
+    width: 100%;
+    margin-top: 24px !important;
+}
+
+button,
+input {
+    overflow: hidden;
+}
+
+
+/*-------------------------------------- Desktop Version-------------*/
+
+@media(min-width: 768px) {
+    .emg_bac {
+        background-color: #03c;
+        width: 50%;
+        height: 100%;
+        background-size: cover;
+    }
+    .log_from {
+        margin-left: 50%;
+    }
+    input [type=text] {
+        border: 1px solid #a6a6a6;
+    }
+    .col-md-6 {
+        padding-right: 20px !important;
+    }
+    .crt-acc {
+        padding-left: 15px !important;
+        padding-top: 15px !important;
+    }
+    .tc {
+        font-weight: bold;
+        font-size: 12px;
+        padding-left: 5px !important;
+        color: #9ea0a5 !important;
+    }
+    #btn {
+        text-transform: uppercase;
+        font-weight: bold;
+        background: #30c;
+        color: #ffff;
+        font-size: 15px;
+        line-height: 5px;
+        margin-bottom: 20px;
+    }
+    .title {
+        font-size: 45px;
+        font-weight: bold !important;
+        color: #ffffff;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 50px;
+        line-height: 50px
+    }
+    .para {
+        font-size: 15px;
+        text-align: center;
+        color: #ffffff;
+        margin-left: 10%;
+        margin-right: 10%;
+        line-height: 20px;
+    }
+    .para1 {
+        font-size: 12px;
+        padding-left: 24px;
+    }
+    .passwrd-req {
+        font-size: 12px;
+        padding: 24px;
+    }
+    .pull-left {
+        width: 50%;
+        position: absolute !important;
+        height: 460px;
+    }
+    .divition {
+        background-color: #03c;
+        height: 13px;
+        width: 85px;
+        margin-top: -1.6%;
+        margin-left: 40px;
+        position: absolute;
+    }
+    .col_log {
+        padding: 40px;
+        width: 75%;
+        margin-top: -25%;
+    }
+    .title_log {
+        font-size: 40px;
+        font-weight: bold !important;
+        text-align: left;
+        padding-bottom: 20px;
+        padding-top: 0px;
+        margin-top: -10%px !important;
+        padding-bottom: 5px;
+    }
+    .input_rem {
+        height: 18px;
+        width: 18px;
+        background-color: #ffffff;
+    }
+    .psw {
+        text-align: center;
+        font-weight: bold;
+    }
+    .tarm {
+        text-align: center;
+        font-size: 12px;
+        margin-left: 50px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .queary {
+        text-align: center;
+        font-size: 13px;
+        border-top: 1px solid #a6a6a6;
+        padding-top: 20px;
+    }
+}
+
+
+/* ------------------------------------------On screens that are 992px wide or less, ---------------------------------*/
+
+@media (max-width: 728px) {
+    /*.log_from{
+    margin-left: 50%;
+}*/
+    .title {
+        font-size: 45px;
+        font-weight: bold !important;
+        color: #ffffff;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 50px;
+        line-height: 50px
+    }
+    .para {
+        font-size: 15px;
+        text-align: center;
+        color: #ffffff;
+        margin-left: 10%;
+        margin-right: 10%;
+        line-height: 20px;
+    }
+    .pull-left {
+        width: 100%;
+    }
+    .divition {
+        background-color: #03c;
+        height: 20px;
+        width: 85px;
+        margin-top: -34px;
+        position: absolute;
+        margin-left: 20px
+    }
+    .col_log {
+        padding: 20px;
+        margin-top: 375px;
+    }
+    .title_log {
+        font-size: 40px;
+        font-weight: bold !important;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+    .input_rem {
+        height: 18px;
+        width: 18px;
+        background-color: #ffffff;
+    }
+    .psw {
+        text-align: center;
+        font-weight: bold;
+    }
+    .tarm {
+        text-align: center;
+        font-size: 12px;
+        margin-left: 50px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .queary {
+        text-align: center;
+        font-size: 13px;
+        border-top: 1px solid #a6a6a6;
+        padding-top: 20px;
+    }
+    .footer_container {
+        padding: 60PX !important;
+    }
+    #footer-div {
+        border-top: 1px solid #ffff;
+        border-left: none;
+        padding-top: 10px;
+    }
+    div.col-md-6 {
+        text-align: center;
+    }
+    .py-3 {
+        padding: 0px 0px 0px 0px !important;
+    }
+}
+
+
+/*-----------------------------media quary----------------------------------------*/
+
+@media (min-width: 1200px) {
+    .container {
+        padding-right: 243px !important;
+        padding-left: 243px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        padding-right: 220px !important;
+        padding-left: 220px !important;
+    }
+}
+
+legend {
+    padding-left: 16px !important;
+    font-size: 12px !important;
+    margin-bottom: 0px;
+    color: rgba(0, 0, 0, 0.6) !important;
+    text-align: left;
+    font-family: Montserrat !important;
+}
+
+.text-danger {
+    font-size: 12px;
+    margin-top: -24px !important;
+}
+
+h1 {
+    font-size: 37.5px;
+    font-stretch: normal;
+    font-weight: 900px;
+}
+
+h5 {
+    font-size: 18.8px;
+    font-weight: 600;
+    line-height: 1.49;
+    font-family: Montserrat;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+@media(min-width: 768px) {
+    .clogin {
+        padding-right: 20px !important;
+        padding-left: 10px !important;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-top: 20px!important;
+    }
+}
+
+.legends {
+    margin-bottom: 0px !important;
+    visibility: hidden;
+}
+
+h5 {
+    margin-bottom: 0px !important;
+}
+
+.org {
+    padding-top: 24px !important;
+}

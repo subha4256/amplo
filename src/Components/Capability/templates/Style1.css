@@ -1,0 +1,43 @@
+.onetempvtext {
+    position: absolute !important;
+    top: 16px  !important;
+    height: 50px  !important;
+    width: 84px  !important;
+    margin: 0  !important;
+    left: 46px  !important;
+    transform-origin: 0 0  !important;
+    transform: rotate(90deg) !important;
+}
+.one-temp{
+    border: solid 1px #d2d3d4;
+    position: relative !important;
+    width: 50px !important;
+    height: 119px !important;
+    margin-right: 5px !important;
+}
+.marbot-8px{
+    margin-bottom: 8px !important;
+}
+.h-42px{
+    height: 42px !important;
+}
+.rotate-textbox {
+    transform: rotate(-90deg) !important;
+    position: absolute !important;
+    right: 0 !important;
+    transform: translate(90deg) !important;
+    left: -55px !important;
+    bottom: 80px !important;
+}
+.fl-sl3 {
+    position: absolute !important;
+    right: 6px !important;
+    bottom: 5px !important;
+    z-index: 9 !important;
+}
+.lineclamp2{
+    -webkit-line-clamp:2 !important;
+}
+.vrt-box .one-temp.mr1{
+    margin-right: 7px !important
+}

@@ -1,0 +1,36 @@
+.onetempvtext {
+    position: absolute;
+    top: 16px;
+    height: 50px;
+    width: 84px;
+    margin: 0;
+    left: 46px;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+.vrt-box .one-temp{
+    border: solid 1px #d2d3d4 ;
+    position: relative !important;
+    width: 50px;
+    height: 123px;
+    margin-right: 5px !important;
+}
+.one-textbox{
+    bottom: 50px !important;
+    left:-28px !important
+}
+.h-42px.pstyle1{
+    height: 44px !important;
+}
+.lineclamp2{
+    -webkit-line-clamp:2 !important;
+}
+.pstyle1{
+    margin-bottom: 2px !important;
+}
+.mr1-1.one-temp{
+    margin-right: 7px !important
+}
+.mr-0.one-temp{
+    margin-right: 0px !important
+}

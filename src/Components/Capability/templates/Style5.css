@@ -1,0 +1,27 @@
+.h-64{
+    height: 64px;
+}
+.w-125{
+    width:125px;
+}
+.five1div1-1{  
+    width:85px !important;
+}
+.five2div2-1{ 
+    width:128px !important;
+}
+.h64-five{
+    height: 60px !important;
+}
+.h32-five{
+    height: 32px !important;;
+}
+.vl-top{
+    vertical-align: top;
+}
+.lineclamp2{
+    -webkit-line-clamp:2 !important;
+}
+.w-107{
+    width:107px !important;
+}

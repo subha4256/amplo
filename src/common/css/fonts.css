@@ -1,0 +1,104 @@
+/* @font-face {
+    font-family: ""SFUIDisplay-Regular"";
+    src: url("../fonts/SFUIDisplay-Regular.woff") format("opentype");
+  }
+   */
+body{
+  margin-bottom: 60px;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+.amplologo-img{
+  width: 42px;
+}
+.sidebar-container-bg .collapse .collapse-inner .collapse-item{
+  white-space: inherit !important;
+  padding: 0.5rem 1.9rem 0.5rem 2.4rem!important;
+}
+@font-face {
+  font-family: 'sf_ui_displayregular';
+  src: url('../fonts/sf-ui-display-regular-webfont.woff2') format('woff2'),
+  url('../fonts/sf-ui-display-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.dropmenusec .dropDownStyle{
+  border-bottom: 1px #e8e5e5 solid;
+    padding: 0px 0 7px 16px !important;
+}
+.dropmenusec .dropDownStyle:last-child{
+  border-bottom: 0px #e8e5e5 solid;
+    padding: 0px 0 7px 16px !important;
+}
+.ant-popover-inner-content {
+  padding: 10px 0 0 0px !important;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+  font-weight: 400;
+}
+.dropmenusec .dropDownStyle .header2-text {
+  font-size: 13px;
+  font-weight: 400;
+}
+.dropmenusec .dropDownStyle .inner-dropdown{
+  left:169px !important;
+  top:7px!important;
+  transform: none!important;
+  border-radius: 0!important;
+  padding-bottom: 0 !important;
+}
+.dropmenusec .dropDownStyle .inner-dropdown .dropdown-divider {
+  margin: 4px 0;
+}
+
+/* 
+@font-face {
+  font-family: 'sf_ui_displaylight';
+  src: url('../../common/fonts/sf-ui-display-light-58646b33e0551-webfont.woff2') format('woff2'),
+    url('../../common/fonts/sf-ui-display-light-58646b33e0551-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'sf_ui_displaymedium';
+  src: url('../fonts/sf-ui-display-medium-58646be638f96-webfont.woff2') format('woff2'),
+    url('../fonts/sf-ui-display-medium-58646be638f96-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'sf_ui_displaysemibold';
+  src: url('../fonts/sf-ui-display-semibold-58646eddcae92-webfont.woff2') format('woff2'),
+    url('../fonts/sf-ui-display-semibold-58646eddcae92-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+} */
+
+.modal{
+  margin-top:50px !important;
+}
+.container-capability{
+  display:flex;
+  /*justify-content: center;*/
+}
+.container-capability .sc-jKJlTe.juQuaK{
+ width:1052px;
+}
+.sidebar-icon{
+  width: 13px;
+  margin-top: -9px;
+}
+@media (max-width: 992px) {
+  .container-capability .sc-jKJlTe.juQuaK{
+    width:1052px;
+    overflow: scroll;
+   }
+}
+

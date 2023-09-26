@@ -1,0 +1,43 @@
+
+.vrtbox-text{
+    position: relative;
+    height: 225px;
+    width: 30px;
+    margin-bottom: 0 !important;
+}
+.vrtbox-text .vtext{
+    position: absolute;
+    top: 8px;
+    height: 50px;
+    width: 225px;
+    margin: 0;
+    left: 25px;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+.fl-sl3{
+    position: absolute;
+    position: absolute;
+    right: 6px;
+    bottom: 5px;
+    z-index: 9;
+}
+.rotate-textbox{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 0;
+    transform: translate(90deg);
+    left: -55px;
+    bottom: 80px;
+}
+.nwidth150{
+    width:185px !important;
+}
+.posclsab6{
+    position: absolute;
+    top:9px;
+    right:9px;
+}
+.h31-sixpx{
+    height:32px !important;
+}

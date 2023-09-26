@@ -1,0 +1,56 @@
+
+.vrtbox-text{
+    position: relative;
+    height: 225px;
+    width: 30px;
+    margin-bottom: 0 !important;
+}
+.vrtbox-text .vtext{
+    position: absolute;
+    top: 8px;
+    height: 50px;
+    width: 225px;
+    margin: 0;
+    left: 25px;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+.fl-sl3{
+    position: absolute;
+    position: absolute;
+    right: 6px;
+    bottom: 5px;
+    z-index: 9;
+}
+.rotate-textbox-six{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 0;
+    transform: translate(90deg);
+    left: -55px;
+    bottom: 80px;
+    width:155px;
+}
+.h-31six{
+    height: 31px !important;;
+}
+.vrtbox-text6{
+    margin-bottom:0 !important;
+    height: 188px !important;
+}
+.lineclamp2{
+    -webkit-line-clamp:2 !important;
+}
+.w-165px-six{
+    width:165px !important;
+    margin-bottom: 2px !important;
+}
+.rotate-textbox-six {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 0;
+    transform: translate(90deg);
+    left: -55px;
+    bottom: 80px;
+    width: 155px;
+}

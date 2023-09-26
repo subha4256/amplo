@@ -1,0 +1,21 @@
+.pstyle5 .h-64{
+    height: 50px;
+}
+.pstyle5 .box{
+    margin-bottom: 4px !important;
+}
+.w-125{
+    width:125px;
+}
+.fivwidthimp1{
+    width: 120px !important
+}
+.fivwidthimp2{
+    width: 120px !important
+}
+.h-32five{
+    height: 32px !important;;
+}
+.lineclamp2{
+    -webkit-line-clamp:2 !important;
+}

@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+/*---------have-----------foot------------*/
+.background-color {
+ background-color: #000 !important;
+}
+
+.container{
+  padding: 60PX;
+}
+
+.footer {
+    background: #EDEFF1;
+    height: auto;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #DDDDDD;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer h3 {
+    border-bottom: 1px solid #BAC1C8;
+    color: #54697E;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 40px 0 10px;
+    text-transform: uppercase;
+}
+.footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
+}
+.footer ul li a {
+    padding: 0 0 5px 0;
+    display: block;
+}
+.footer a {
+    color: #78828D
+}
+.footer-text  {
+    font-size: 10px;
+    color:#ffff !important;
+
+}
+.footer-text a {
+    font-size: 10px;
+    color:#ffff !important;
+    margin: 10px;
+}
+#footer-div{
+    border-left: 1px solid #ffff;
+}
+ .py-3{
+    padding: 0px 0px 0px 0px !important;
+}
+.facebook,.linkedin{
+    font-size:30px;
+    color:#fff;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.twitter{
+     font-size:30px;
+     color:#fff;
+     margin-bottom: 10px; 
+     margin-left: 15px;
+}
+.fa-twitter:before, .fa-facebook-square:before, .fa-linkedin-square:before{
+    color:#fff;
+}
+.text-center{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #03c;
+    text-align: center;
+    color: white;
+}
+.text-white{
+    font-family: arial;
+    font-size:13.6px;
+}
+
+@media(max-width:754px){
+	
+	
+	#footer-div{
+    border-top: 1px solid #ffff;
+    border-left: none;
+    padding-top: 10px;
+    }
+	 .py-3{
+    padding: 0px 0px 0px 0px !important;
+}
+}
+
+
+

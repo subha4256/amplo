@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Process</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    </head>
+    <body>
+        <div class="container">
+        
+            <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#processModel">
+              Open Process
+            </button>
+          
+            <!-- The Modal -->
+            <div class="modal fade" id="processModel">
+              <div class="modal-dialog modelWidth modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Process</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <div>
+                        <div class="row">
+                        <div class="col-md-4">
+                            <div class="main-div-project">
+                                <h3 class="main-project-name">Project Name</h3>
+                                <select class="main-project-nameselect"><option>KPM Project</option></select>
+                                <div class="p-name-div">
+                                    <h4 class="sub-head">Function,Phase,Capability</h4>
+                                    <div class="sub-head-alabel sortable">
+                                    <h5 class="sub-sub-head">Test Function 1, Test Phase 1</h5>
+                                    <p class="capability-list">Capabilty 1</p>
+                                    <p class="capability-list">Capabilty 2</p>
+                                    <p class="capability-list">Capabilty 3</p>
+                                </div>
+                                <div class="sub-head-alabel sortable">
+                                    <h5 class="sub-sub-head">Test Function 2, Test Phase 2</h5>
+                                    <p class="capability-list">Capabilty 4</p>
+                                    <p class="capability-list">Capabilty 5</p>
+                                </div>
+                                <div class="sub-head-alabel sortable">
+                                    <h5 class="sub-sub-head">Test Function 3, Test Phase 3</h5>
+                                    <p class="capability-list">Capabilty 6</p>
+                                    <p class="capability-list">Capabilty 7</p>
+                                    <p class="capability-list">Capabilty 8</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="main-div-project">
+                                <h3 class="main-project-name">Select Project</h3>
+                                <select class="main-project-nameselect"><option>KPM Project</option></select>
+                                <div class="p-name-div">
+                                    <h4 class="sub-head">Function 1,Phase 1,Capability 1</h4>
+                                    <div class="sub-head-alabel sortable">
+                                    <h5 class="sub-sub-head">Test Function 1, Test Phase 1</h5>
+                                    <p class="capability-list">Capabilty 1</p>
+                                    <p class="capability-list">Capabilty 2</p>
+                                    <p class="capability-list">Capabilty 3</p>
+                                </div>
+                                <div class="sub-head-alabel sortable">
+                                    <h5 class="sub-sub-head">Test Function 2, Test Phase 2</h5>
+                                    <p class="capability-list">Capabilty 4</p>
+                                    <p class="capability-list">Capabilty 5</p>
+                                </div>
+                                <div class="sub-head-alabel sortable">
+                                    <h5 class="sub-sub-head">Test Function 3, Test Phase 3</h5>
+                                    <p class="capability-list">Capabilty 6</p>
+                                    <p class="capability-list">Capabilty 7</p>
+                                    <p class="capability-list">Capabilty 8</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="main-div-project">
+                                <h3 class="main-project-name">&nbsp;</h3>
+                                    
+                                <h3 class="main-project-name" style="margin-bottom:15px">Causal</h3>
+                                <h3 class="sub-head text-left pr-2">Dependency <a href="#" class="flo-depen-link btn btn-sm btn-outline-primary bg-white text-dark ">Add Dependency</a></h3>
+                                <div class="box-dependency">
+                                    <div class="de-indecapa">
+                                        <h5>Dependent Capability<i class="fa fa-trash-o trash-main" aria-hidden="true"></i></h5>
+                                        <div>
+                                        <p class="capability-list dep-cap">Capability 10</p>
+                                        <i class="fa fa-trash-o trash-main-inner" aria-hidden="true"></i>
+                                    </div>
+                                    </div>
+                                    <div class="de-indecapa">
+                                        <h5>Inependent Capabilities<a href="#">+ Add</a></h5>
+                                        <div class="ind-capadd">
+                                        <p><span class="capability-list">Capability 1</span><input type="text" class="depend-value"><i class="fa fa-trash-o trash-main-inner" aria-hidden="true"></i></p>
+                                        <p><span class="capability-list">Capability 1</span><input type="text" class="depend-value"><i class="fa fa-trash-o trash-main-inner" aria-hidden="true"></i></p>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="box-dependency">
+                                    <div class="de-indecapa">
+                                        <h5>Dependent Capability <i class="fa fa-trash-o trash-main" aria-hidden="true"></i></h5>
+                                        <div>
+                                            <p class="capability-list dep-cap">Capability 10</p>
+                                            <i class="fa fa-trash-o trash-main-inner" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="de-indecapa">
+                                        <h5>Inependent Capabilities<a href="#">+ Add</a></h5>
+                                        <div class="ind-capadd">
+                                        <p><span class="capability-list">Capability 1</span><input type="text" class="depend-value"><i class="fa fa-trash-o trash-main-inner" aria-hidden="true"></i></p>
+                                        <p><span class="capability-list">Capability 2</span> <input type="text" class="depend-value"><i class="fa fa-trash-o trash-main-inner" aria-hidden="true"></i></p>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger mx-3" data-dismiss="modal">Cancel</button>
+                    <button class="btn btn-primary">Save</button>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <script>
+            $( function() {
+                $( ".sub-head-alabel" ).sortable();
+            } );
+            $( function() {
+                $( ".ind-capadd" ).sortable();
+            } );
+            </script>
+    </body>
+</html>

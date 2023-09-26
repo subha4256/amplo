@@ -1,0 +1,54 @@
+
+.vtext7text{
+    position: absolute;
+    top: 8px;
+    height: 50px;
+    width: 132px;
+    margin: 0;
+    left: 25px;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+.vtext7div{
+    height: 132px;
+    width: 30px;
+    margin-bottom: 0 !important;
+}
+.fl-sl3{
+    position: absolute;
+    position: absolute;
+    right: 6px;
+    bottom: 5px;
+    z-index: 9;
+}
+.rotate-textbox7 {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 0;
+    transform: translate(90deg);
+    left: -26px;
+    bottom: 47px;
+    width: 99px;
+}
+.vtext7div{
+    height: 115px !important;
+   
+}
+.vtext7text{
+    width:86px !important;
+}
+.h-30seven{
+    height: 30px !important;;
+}
+.h-37seven{
+    height: 37px !important;;
+}
+.w-110px-seven{
+    width:110px !important;
+}
+.lineclamp2{
+    -webkit-line-clamp:2 !important;
+}
+.pstyle7{
+    margin-bottom: 2px !important;
+}

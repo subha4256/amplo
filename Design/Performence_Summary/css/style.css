@@ -1,0 +1,70 @@
+﻿
+.head-pannel-left img{
+    width:90px
+}
+.head-pannel-left label{
+    color: rgb(231, 108, 55);
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+    font-family: 'Segoe UI';
+}
+.two-separatebox{
+    display: flex;
+    justify-content: end;
+}
+.name-box {
+    background-color: #e6e6e6;
+    min-width: 225px;
+    padding: 10px 5px;
+    text-align: center;
+}
+.name-box:first-child{
+    margin-right: 15px;
+}
+.name-box h3{
+    color: rgb(37, 36, 35);
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+.name-box p{
+    color: rgb(18, 35, 159);
+    font-size: 17px;
+    font-style: italic;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.score-left-pannel{
+    background-color: #f5c4af;
+    min-height: 500px;
+    padding: 10px;
+}
+.score-left-pannel-heading{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.score-right-pannel{
+    min-height: 500px;
+}
+.score-right-pannel{
+    display: flex;
+    flex-wrap: wrap;
+}
+.each-small-scorepannel {
+    flex-grow: 1;
+    width: 31%;
+    padding: 8px 7px;
+    background: #e6e6e6;
+    margin: 5px 3px;
+    box-shadow: 0 0 20px #a59f9f;
+  }
+  .each-small-scorepannel h3{
+    color: rgb(37, 36, 35);
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 45px;
+  }
+  

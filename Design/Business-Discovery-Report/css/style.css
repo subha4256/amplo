@@ -1,0 +1,8 @@
+﻿.data-table-single thead tr th{
+    background-color: rgb(237, 114, 1);
+	padding:8px 5px;
+	color:#fff;
+}
+.data-table-single tbody tr td{
+    padding:8px 5px;
+}

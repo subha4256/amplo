@@ -1,0 +1,39 @@
+.onetempvtext {
+    position: absolute;
+    top: 16px;
+    height: 50px;
+    width: 84px;
+    margin: 0;
+    left: 46px;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+.one-temp{
+    border: solid 1px #d2d3d4 ;
+    position: relative !important;
+    width: 50px;
+    height: 123px;
+    margin-right: 5px !important;
+}
+.one-textbox{
+    bottom: 50px !important;
+    left:-28px !important
+}
+.h-42px{
+    height: 42px !important;
+}
+.lineclamp2{
+    -webkit-line-clamp:2 !important;
+}
+.h-41s3 {
+    height: 63px!important;
+}
+.rotate-textbox-Style13 {
+    transform: rotate(-90deg) !important;
+    position: absolute !important;
+    right: 0 !important;
+    transform: translate(90deg) !important;
+    left: -83px !important;
+    bottom: 100px !important;
+    width: 195px;
+}

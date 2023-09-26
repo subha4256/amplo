@@ -1,0 +1,56 @@
+.vtext9{
+    position: relative;
+    height: 270px;
+    width: 30px;
+    margin-bottom: 0 !important;
+}
+/* .h-60{
+    height: auto !important;
+} */
+.vtext-9text{
+    position: absolute;
+    top: 8px;
+    height: 30px;
+    width: 200px;
+    margin: 0;
+    left: 25px;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+.fl-sl3{
+    position: absolute;
+    position: absolute;
+    right: 6px;
+    bottom: 5px;
+    z-index: 9;
+}
+.rotate-textbox{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 0;
+    transform: translate(90deg);
+    left: -55px;
+    bottom: 80px;
+}
+.width146-nine{
+    width:146px !important;
+}
+.posabsolute1ninediv{
+    position:absolute !important;
+    top:10px !important;
+    right:0 !important;
+}
+.posabsolute3ninediv{
+    position:absolute !important;
+    top:10px !important;
+    right:46px !important;
+}
+.h-38{
+    height:40px !important;
+}
+.h-32-nine{
+    height:34px !important ;
+}
+.h-40-nine{
+    height:42px !important ;
+}

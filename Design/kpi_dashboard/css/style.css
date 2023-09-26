@@ -1,0 +1,126 @@
+﻿/* rgb(237, 114, 1); */
+/* ----------------------------------------Comon Header section------------------------- */
+.head-pannel-left img{
+    width:90px
+}
+.head-pannel-left label{
+    color: rgb(231, 108, 55);
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+    font-family: 'Segoe UI';
+}
+.two-separatebox{
+    display: flex;
+    justify-content: end;
+}
+.name-box {
+    background-color: #e6e6e6;
+    min-width: 225px;
+    padding: 10px 5px;
+    text-align: center;
+}
+.name-box:first-child{
+    margin-right: 15px;
+}
+.name-box h3{
+    color: rgb(37, 36, 35);
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+.name-box p{
+    color: rgb(18, 35, 159);
+    font-size: 17px;
+    font-style: italic;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.score-left-pannel{
+    background-color: #f5c4af;
+    min-height: 500px;
+    padding: 10px;
+}
+.score-left-pannel-heading{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 100px;
+}
+/* ----------------------------------------------KPI Dashboard---------------- */
+.market-header {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    padding: 8px 0;
+    font-weight: 600;
+}
+.bg-market{
+    background-color: rgb(231, 108, 55);
+}
+.bg-growth{
+    background-color: #b3b3b3;
+}
+.bg-efficiency{
+    background-color: #d9b300;
+}
+.Market-size-box{
+    background-color: #fae2d7;
+    border: 1px solid #eb9375;
+    min-height: 240px;  
+}
+.Market-size-box h3{
+    color:rgb(231, 108, 55);
+    font-size: 21px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.Market-size-box h2{
+    color:rgb(37, 36, 35);
+    font-size: 45px;
+}
+.growth-kpi-smallbox{
+    background-color: #e6e6e6;
+    border:1px solid #939393;
+    border-radius: 2px;
+    text-align: center;
+    min-height: 115px;
+    padding: 0 5px;
+    margin-bottom: 15px;
+}
+.growth-kpi-smallbox h3{
+    color: rgb(37, 36, 35);
+    font-size: 14px;
+    margin-top: 5px;
+}
+.growth-kpi-smallbox h2{
+    font-size: 32px;
+    margin-bottom: 2px;
+}
+.growth-kpi-smallbox h2 span{
+    font-size: 15px;
+}
+.warning-color{
+    color: rgb(215, 69, 84);
+}
+.growth-kpi-smallbox h4{
+    color: rgb(37, 36, 35);
+    font-size: 13px;
+}
+.success-color{
+    color: rgb(26, 172, 64);
+}
+.success-color .fa{
+    font-size: 12px;
+}
+.efficency-kpi{
+    background-color: #f0e199;
+    border:1px solid #e0c154;
+    border-radius: 2px;
+    text-align: center;
+    min-height: 115px;
+    padding: 0 5px;
+    margin-bottom: 15px;
+}
+/* ----------------------------------------Strategy Assessment Kedar Pandya------------------------- */

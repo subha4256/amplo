@@ -1,0 +1,178 @@
+/*---------------------heading area-----------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,600i,700,700i,800,900&display=swap');
+* {
+    font-family: Montserrat;
+}
+
+@font-face {
+    font-family: "SF UI Display";
+    font-style: normal;
+    src: local(SF UI Display) url("../../../common/fonts/SFUIDisplay-Regular.woff") format("woff");
+}
+
+:root {
+    --black-25: rgba(0, 0, 0, 0.25);
+    --flat-blue: #3d70b2;
+    --flat-blue-10: rgba(61, 112, 178, 0.1);
+    --light-periwinkle: #d8dde6;
+    --cerulean: #0070d2;
+    --white: #ffffff;
+    --dark-sky-blue: #5596e6;
+    --white-15: rgba(255, 255, 255, 0.15);
+    --beige: #c9c7c5;
+    --ocean-blue: #005fb2;
+}
+
+
+/* CSS Document */
+
+
+/*---------------------------------nav--------------------------*/
+.diva-logo{
+    width: 120px;
+  }
+.navbar {
+    border-bottom: 1px solid;
+    border-color: #A6A6A6;
+    box-shadow: .1px;
+    background-color: #ffffff;
+    height: 80px;
+}
+
+.navbar-right {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-right li {
+    float: left;
+    padding: 5px;
+}
+
+.new-user {
+    color: #a6a6a6;
+}
+
+.navbar ul li a {
+    font-weight: 600;
+    border: 1px solid;
+    border-color: #03c;
+    color: #03c;
+    text-align: center;
+    padding-top: 5PX;
+    padding-bottom: 5PX;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: #03c;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    margin-left: 40px;
+    font-weight: bold;
+    color: black !important;
+}
+
+
+/*----------------------------------------------------------------!@@@@@@@@------------------------------*/
+
+.rectangle {
+    height: 80px;
+    border: solid 1px #d8dada;
+    background-color: var(--white);
+}
+
+.tm {
+    width: 14px;
+    height: 11px;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.03px;
+    color: #011638;
+    vertical-align: super;
+}
+
+.diva {
+    width: 48px;
+    height: 22px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.05px;
+    color: #000000;
+}
+
+.have-an-account {
+    width: 101px;
+    height: 15px;
+    font-family: SFUIDisplay;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.05px;
+    color: #9ea0a5;
+}
+
+.phn-text-danger {
+    font-family: SF UI Display;
+    font-size: 12px;
+    color: red;
+    margin-top: 0px !important;
+}
+
+.phn-border {
+    border-color: red;
+}
+
+
+/*----------------------------------------------- !--------------------------*/
+
+
+/* .login {
+    font-family: "Montserrat";
+    font-weight: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: normal;
+} */
+
+.header-font {
+    font-family: "Montserrat";
+    color: #fd1506;
+}
+
+@media(max-width: 326px) {
+    .navbar ul {
+        padding-left: 0px !important;
+        padding-left: 36 px !important;
+    }
+    .new-user {
+        padding-right: 4px !important;
+    }
+}
+
+@media(max-width: 380px) {
+    .navbar {
+        padding-left: 25px;
+    }
+    .navbar-header {
+        padding-left: 25%;
+    }
+}

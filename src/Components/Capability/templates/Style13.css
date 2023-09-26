@@ -1,0 +1,133 @@
+/* .h-49{
+    height: 49px;;
+}
+.h-35{
+    height: 35px;;
+}
+.h-68{
+    height: 68px;
+} */
+
+.onetempvtext {
+    position: absolute;
+    top: 16px;
+    height: 50px;
+    width: 84px;
+    margin: 0;
+    left: 46px;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+.one-temp{
+    border: solid 1px #d2d3d4 ;
+    position: relative !important;
+    width: 50px;
+    height: 123px;
+    margin-right: 5px !important;
+}
+.one-textbox{
+    bottom: 50px !important;
+    left:-28px !important
+}
+.h-42px{
+    height: 42px !important;
+}
+.lineclamp2{
+    -webkit-line-clamp:2 !important;
+}
+.h-68s3 {
+    height: 76px!important;
+}
+.h-41s3 {
+    height: 63px!important;
+}
+
+/* .vtext-temp3{
+    position: absolute !important;
+    top: 8px !important;
+    height: 30px !important;
+    width: 196px !important;
+    margin: 0 !important;
+    left: 25px !important;
+    transform-origin: 0 0 !important;
+    transform: rotate(90deg) !important;
+}
+.box-white-3 {
+    position: relative !important;
+    height: 196px !important;
+    width: 30px !important;
+    margin-bottom: 0 !important;
+}
+.box-white-3-style{
+    position: relative !important;
+    height: 223px !important;
+    width: 30px !important;
+    margin-bottom: 0 !important;
+}
+.fl-sl3{
+    position: absolute !important;
+    position: absolute !important;
+    right: 6px !important;
+    bottom: 5px !important;
+    z-index: 9 !important;
+}
+.rotate-textbox{
+    transform: rotate(-90deg) !important;
+    position: absolute !important;
+    right: 0 !important;
+    transform: translate(90deg) !important;
+    left: -55px !important;
+    bottom: 80px !important;
+}
+.cuswidth70px{
+    width:70px !important;
+}
+.cuswidth146px{
+    width:146px !important;
+}
+.absolute2class{
+    position: absolute !important;
+    top:6px !important;
+    right:46px;
+}
+
+.absolute1class{
+    position: absolute !important;
+    top: 6px !important;
+    right:0;
+}
+.mt01{
+top:6px !important;
+}
+.vl-top{
+    vertical-align:top;
+}
+.h-49-three{
+    height:49px !important;
+}
+.h-41-three{
+    height: 41px !important;;
+}
+.h-64-three{
+    height: 64px !important;;
+}
+.lineclamp2{
+    -webkit-line-clamp:2 !important;
+} */
+.class13{
+    position: absolute !important;
+    top: 6px !important;
+    right: 34px!important;
+    width: 30px !important;
+    height: 230px !important;
+}
+.class13-2{
+    position: absolute !important;
+    top: 6px !important;
+    right: 5px;
+    height: 230px !important;
+    width: 30px !important;
+}
+.class13-1{
+    margin-bottom: 13px !important;
+}

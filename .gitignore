@@ -1,0 +1,16 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.back-env
+.phpunit.result.cache
+/src/config.js
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/src/config.js
+/public/capability_modeling
+src/config.js

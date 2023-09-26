@@ -1,0 +1,12 @@
+.h-60-twelve{
+    height: 60px !important;
+    margin-bottom: 2px !important;
+
+}
+.h-39-twelve{
+    height: 39px !important;
+    margin-bottom: 2px !important;
+}
+.lineclamp2{
+    -webkit-line-clamp:2 !important;
+}

@@ -1,0 +1,172 @@
+﻿/* rgb(237, 114, 1); */
+/* ----------------------------------------Comon Header section------------------------- */
+.head-pannel-left img{
+    width:90px
+}
+.head-pannel-left label{
+    color: rgb(231, 108, 55);
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+    font-family: 'Segoe UI';
+}
+.two-separatebox{
+    display: flex;
+    justify-content: end;
+}
+.name-box {
+    background-color: #e6e6e6;
+    min-width: 225px;
+    padding: 10px 5px;
+    text-align: center;
+}
+.name-box:first-child{
+    margin-right: 15px;
+}
+.name-box h3{
+    color: rgb(37, 36, 35);
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+.name-box p{
+    color: rgb(18, 35, 159);
+    font-size: 17px;
+    font-style: italic;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.score-left-pannel{
+    background-color: #f5c4af;
+    min-height: 500px;
+    padding: 10px;
+}
+.score-left-pannel-heading{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 100px;
+}
+/* ----------------------------------------People Management------------------------- */
+.comon-left-operation-management{
+    min-height: 160px;
+    box-shadow: 0 0 20px #a59f9f;
+    margin-bottom: 25px;
+    text-align: center;
+    padding:5px 5px;
+}
+.light-pink-people-bar{
+    background-color: #fcf0eb;
+}
+.comon-left-operation-management h3{
+    color: rgb(37, 36, 35);
+    font-size: 15px;
+    margin-top: 5px;
+}
+.comon-left-operation-management h2{
+    font-size: 32px;
+    margin-bottom: 2px;
+    margin-top: 20px;
+}
+.comon-left-operation-management h2 span{
+    font-size: 15px;
+}
+.comon-left-operation-management h2 span .fa {
+    font-size: 12px;
+}
+.comon-left-operation-management h4{
+    color: rgb(37, 36, 35);
+    font-size: 13px;
+    margin-top: 5px;
+}
+.warning-color{
+    color: rgb(215, 69, 84);
+}
+.success-color {
+    color: rgb(26, 172, 64);
+}
+.comon-opr-management-div{
+    min-height: 160px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.operating-mar-current{
+    border:1px solid #744ec2;
+    border-radius: 5px;
+}
+.roce-mar-current{
+    border:1px solid #c499ca;
+    border-radius: 5px;
+}
+.workingcapital-mar-current{
+    border:1px solid #d9b300;
+    border-radius: 5px;
+}
+.operating-mar-current .key-obv-label{
+    background-color: #744ec2;
+} 
+.roce-mar-current .key-obv-label{
+    background-color: #c499ca;
+} 
+.workingcapital-mar-current .key-obv-label{
+    background-color: #d9b300;
+}
+.key-obv-label{
+    font-size: 12px;
+    color:#fff;
+    padding: 2px 5px 8px 5px;
+    position: relative;
+    margin-bottom: 0;
+}
+.key-obv-label span{
+    position: absolute;
+    bottom: -1px;
+    left: 5px;
+    color:#fff;
+}
+.comon-opr-management-div p{
+    color: rgb(37, 36, 35);
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 18px;
+}
+.dark-green-border{
+    border-right: 3px solid #0d6abf;
+}
+.operation-mgmnt-table{
+    border:1px solid #9f8bd2;
+    border-radius: 5px;
+    padding: 5px;
+}
+.operation-mgmnt-table table{
+    background-color: #f5c4af;
+    padding: 5px;   
+}
+.operation-mgmnt-table table thead tr th{
+    font-size: 12px;
+    color: rgb(37, 36, 35);
+    text-align: center;
+    padding: 5px ;
+}
+.operation-mgmnt-table table tbody tr td{
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px;
+    border: 5px solid #f5c4af;
+    background: #fff;
+    vertical-align: top;
+    line-height: 16px;
+}
+.drk-yellow{
+    background-color: #fdf800 !important;
+}
+.drk-orange{
+    background-color: #e66c37 !important;
+}
+.drk-green{
+    background-color: #45e600 !important;
+}
+.people-mar-current{
+    border-radius: 5px;
+    border:1px solid #e66c37;
+}

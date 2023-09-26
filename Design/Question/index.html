@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Question</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div class="container">
+        
+            <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+              Open Question
+            </button>
+          
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal">
+              <div class="modal-dialog modelWidth modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">&nbsp;</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <div class="d-flex justify-content-between "><div><h4 class="mb-4">Wadhwani Project</h4></div>
+                    <!-- <div><div class="form-group d-flex"><select class="form-control"><option>FY2023</option><option value="FY2017">FY2017</option><option value="FY2018">FY2018</option><option value="FY2019">FY2019</option><option value="FY2020">FY2020</option><option value="FY2021">FY2021</option><option value="FY2022">FY2022</option><option value="FY2023">FY2023</option></select></div></div> -->
+                </div>
+                    <div>
+                        <table class="w-100 ques-anstable">
+                            <thead>
+                                <tr>
+                                    <th class="question-td" style="width:70%">
+                                        <h2 class="m-0 text-white">Question </h2>
+                                    </th>
+                                    <th class="score-td" style="width:30%">
+                                        <h2 class="m-0 text-white">Scores</h2>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="bord-rightwhite light-red-bg">
+                                        <div class="text-left ">
+                                            <h3 class="ques-text"><span class="q-label">Q. </span>What is estimated market size for your products and service for the current?</h3>
+                                            <div class="ans-radio-div">
+                                                <label><input type="radio" name="group2">Upto 100 Cr</label>
+                                                <label><input type="radio" name="group2">100 Cr To 125 Cr</label>
+                                                <label><input type="radio" name="group2">125 Cr To 150 Cr</label>
+                                                <label><input type="radio" name="group2">150 Cr To 200 Cr</label>
+                                                <label><input type="radio" name="group2">200 Cr To 300 Cr</label>
+                                                <label><input type="radio" name="group2">300 Cr To 350 Cr</label>
+                                                <label><input type="radio" name="group2">Above 350 Cr</label>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="score-valuetd score-valuetd-div" >
+                                        <div class="scoreno">
+                                            5
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="bord-rightwhite light-red-bg">
+                                        <div class="text-left ">
+                                            <h3 class="ques-text"><span class="q-label">Q. </span>What is your annual expense/burn rate?</h3>
+                                            <div class="ans-radio-div">
+                                                <label><input type="radio" name="group2">Above 100 Cr</label>
+                                                <label><input type="radio" name="group2">80 Cr To 90 Cr</label>
+                                                <label><input type="radio" name="group2">70 Cr To 800 Cr</label>
+                                                <label><input type="radio" name="group2">60 Cr To 70 Cr</label>
+                                                <label><input type="radio" name="group2">40 Cr To 60 Cr</label>
+                                                <label><input type="radio" name="group2">30 Cr To 40 Cr</label>
+                                                <label><input type="radio" name="group2">Below 25 Cr</label>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="score-valuetd score-valuetd-div" >
+                                        <div class="scoreno">
+                                            5
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                  </div>
+                  
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger mx-3" data-dismiss="modal">Cancel</button>
+                    <button class="btn btn-primary">Save</button>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+          </div>
+    </body>
+</html>

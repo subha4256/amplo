@@ -1,0 +1,603 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+#wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+  margin-top: 55px;
+  background-color: #e4e5e6;
+}
+#wrapper #content-wrapper #content {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 0 auto;
+	flex: 1 0 auto;
+	font-size: 14px
+}
+#wrapper #content-wrapper {
+	background-color: #e4e5e6;
+	width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden; 
+}
+.toggleRightBar {
+  padding: 14px 18px;
+  background-color: #d8d8d8;
+  color: #708393;
+  height: 50px;
+}
+.breadcrumb{
+	margin-bottom: 0;
+}
+.breadcrumb.dashbread{
+	background-color: #fff;
+	padding: 10px 1em 10px 1rem;
+	border-radius: 0;
+}
+.breadcrumb.dashbread .powered{
+	color: #708393;
+	font-size:12px;
+}
+
+.breadcrumb.dashbread .helpwrap .helpicon {
+    margin-top: 3px;
+    margin-right: 5px;
+    display: inline-block;
+    color: #616161 !important;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.breadcrumb .helpwrap .dropdown-toggle::after {
+  display: none;
+}
+
+.breadcrumb .helpwrap .dropdown-menu p {
+  padding: 0 7px 0 7px;
+  margin: 0;
+  font-size: 13px;
+}
+
+div.CustomRadio input {
+    opacity: 0;
+    margin-left: -1.80rem;
+    margin-top: 8px;
+  }
+  div.CustomRadio input ~label ~span{
+    width: 87px;
+    line-height: 24px;
+    color: #637075;
+    display: inline-block;
+    text-align: center;
+    background: rgb(252, 252, 252) none repeat scroll 0% 0%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px 0px inset;
+    border-radius: 12px;
+  }
+  div.CustomRadio input ~label ~span i{
+    display:none;
+  }
+  div.CustomRadio input:checked ~ label ~ span{
+    display: inline-block;
+    font-weight: bold;
+    transform: translateX(0px);
+    transition: all 150ms ease 0s;
+    vertical-align: top;
+    position: relative;
+    color: rgb(255, 255, 255);
+    line-height: 34px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+    background-color: #083ac8;
+  }
+  div.CustomRadio input:checked ~ label ~ span i{
+    display:inline-flex;
+  }
+  .logo-img {
+    width: 37px;
+  }
+  .breadcrumb.dashbread .breadcrumb-item {
+    padding-top: 7px;
+}
+@media (max-width: 575.98px) {
+	.breadcrumb.dashbread .breadcrumb-menu.d-md-down-none.ml-auto{
+	display: none;
+	}
+}
+
+@font-face {
+  font-family: 'sf_ui_displayregular';
+  src: url('/../../../../common/fonts/sf-ui-display-regular-webfont.woff2') format('woff2'),
+  url('/../../../../fonts/sf-ui-display-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*.modal .btn-primary
+   {
+    width: 166px;
+    height: 40px;
+    border-radius: 4px;
+    border: solid 1px #083ac8;
+    background-color: #083ac8;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+  }
+
+  .modal .btn-secondary {
+    width: 166px;
+    height: 40px;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+  }
+*/
+  .modal .capability_modeling h3 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: 0.2px;
+    color: #000000;
+  }
+  
+  .modal .capability_modeling .custom-checkbox {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+    color: #2f353a;
+    margin-bottom: .5rem !important;
+  }
+  
+  .modal .capability_modeling .form-group label {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.71;
+    letter-spacing: 0.13px;
+    color: #2f353a;
+  }
+  
+  .modal .capability_modeling .form-group .form-control {
+    height: 40px;
+    border: solid 1px rgba(0, 0, 0, 0.32);
+    background-color: #fff;
+  }
+
+  .ReactTable .rt-thead .rt-resizable-header-content {
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .ReactTable .rt-thead .rt-resizable-header:last-child .rt-resizable-header-content,
+  .ReactTable .rt-tbody .rt-tr-group .rt-td:last-child {
+    text-align: center;
+  }
+
+  .reportModal .modal-header {
+    padding: 2rem 2rem 2rem 2rem;
+    border-bottom: none;
+  }
+  .reportModal .modal-body {
+    padding: 0 2rem;
+    font-size: 0.9rem;
+  }
+
+  .reportModal .modal-body tbody {
+    color: #5c5e6b;
+  }
+  .reportModal .table-bordered td, .reportModal .table-bordered th {
+    border: 1px solid #bfbdbd;
+    padding: .75rem .75rem .75rem 1.2rem;
+  }
+
+  .reportModal .table-striped > tbody > tr:nth-child(even) > td, 
+  .reportModal .table-striped > tbody > tr:nth-child(even) > th {
+    background-color: #f2f2f2;
+ }
+
+ .reportModal .modal-body tbody .scoreBar {
+   height: 15px;
+ }
+
+ .capabilityStylingModal .col-sm-3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.capabilityFunctionsModal .managebox {
+  width: 291px;
+  height: 202px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #979797;
+  border-image: initial;
+  overflow: auto;
+  padding: 9px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.capabilityFunctionsModal .managebox .custom-checkbox .custom-control-label::before {
+  border-radius: 3px;
+}
+.scoring ::before {
+  display: none !important;
+}
+.scoring {
+  width: 100px;
+}
+.form-control-scoringinput{
+  display: inline-block;
+  margin-left: 10px;
+  padding-left: 5px;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.capabilityFunctionsModal .managebox .custom-control-label::before{
+  width:12px;
+  height:12px;
+  border-radius: 3px;   
+}
+.capabilityFunctionsModal .managebox .custom-control-label::after{
+  width:12px;
+  height:12px;
+  border-radius: 3px;
+}
+.capabilityFunctionsModal .managebox .custom-control{
+  min-height: 16px;
+}
+.capabilityFunctionsModal .managebox .custom-control-label{
+  line-height: 16px !important;
+  font-weight: normal !important;
+}
+.capabilityFunctionsModal .custom-control-input:checked ~ .custom-control-label::before{
+  border:#c8ced3 solid 1px;
+  background: none;
+}
+.capabilityFunctionsModal .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after{
+  left: -20px;
+  top: 6px;
+  width: 4px;
+  height: 7px;
+  border: solid #0070d2;
+  border-top-width: medium;
+  border-right-width: medium;
+  border-bottom-width: medium;
+  border-left-width: medium;
+border-width: 0 2px 2px 0;
+-webkit-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+.capabilityFunctionsModal .custom-checkbox .custom-control-input:checked ~ .custom-control-label-big::after {
+  left: -19px;
+  top: 6px;
+  width: 6px;
+  height: 10px;
+}
+.capabilityFunctionsModal .del-icon{
+  font-size:12px;
+  color:#8f9090;
+  cursor: pointer;
+}
+.capabilityFunctionsModal .mb-header{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.71;
+  letter-spacing: 0.13px;
+  color: #2f353a;
+  width:100%;
+}
+.capabilityFunctionsModal .card-text-capability{
+  font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin-top: 0px;
+}
+.capabilityFunctionsModal .name-fub-phase-heading{
+  margin-bottom: 5px;
+}
+.capabilityFunctionsModal .managebox-bot-mandatory-field{
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 0.17px;
+  color:#000000;
+}
+.capabilityFunctionsModal .width55{
+  width:55%;
+  vertical-align: top;
+}
+.capabilityFunctionsModal .width43{
+  width:43%;
+  vertical-align: top;
+}
+.capabilityFunctionsModal .width100percent{
+  width:100%;
+}
+.templateModal .managebox{
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  height: 150px;
+  overflow-y: auto;
+  padding: 5px;
+}
+.templateModal .slick-slider .templateItem {
+  cursor: pointer;
+  outline: none;
+}
+.templateModal .slick-slider .templateItem img {
+  width: 100%;
+}
+.templateModal .slick-slider .slick-prev:before, .templateModal .slick-slider .slick-next:before{
+  color: black;
+  }
+@media (min-width: 992px) {
+  .templateModal {
+      max-width: 1000px;
+  }
+}
+.templateModal ul.unstyled-list {
+  list-style: none;
+  padding: 10px 0 10px 10px;
+  max-height: 220px;
+  overflow-y: auto;
+  border: 1px solid #c9c9c9;
+}
+.templateModal ul.clickable-list {
+  max-height: 220px;
+  overflow-y: auto;
+}
+.templateModal ul.clickable-list li {
+  cursor: pointer;
+}
+.templateModal .slick-slider .templateItem.active {
+  border: 2px solid #c9c9c9;
+}
+ .hello {
+  align-items: center;
+}
+.popup-tabledata thead tr th{
+  opacity: 0.76;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #2f353a;
+  vertical-align: middle;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  border:1px solid #c8ced3 !important;
+}
+.reportModal .modal-title{
+  font-size: 24px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.02px;
+color: #000000;
+}
+.reportModal .modal-content{
+  padding-bottom: 30px;
+}
+.popup-tabledata tbody tr td{
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #2f353a;
+  border:1px solid #c8ced3 !important;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+/**
+* Ideate modal styling starts
+**/
+.schedulemodal .modal-title{
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.01px;
+  color: #131313;
+}
+.schedulemodal .nav-tabs li a{
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #969aa2;
+  padding: 10px 0;
+  border: 3px transparent solid;
+  border-radius: 0;
+}
+.schedulemodal .nav-tabs li a.active, .schedulemodal .nav-tabs li a:hover{
+  border: 3px transparent solid;
+  border-bottom: 3px #083ac8 solid !important;
+  color: #2e384d;
+}
+.schedulefrm .form-control{
+  background-color: #f2f3f4;
+  height: 30px;
+  border:none;
+  font-size: 14px;
+color: #202020;
+}
+.datefld{
+  width: 110px !important;
+}
+.timefld{
+  width: 80px!important;
+}
+.schedulefrm span{
+  font-size: 14px;
+  color: #202020;
+}
+.schedulefrm  .input-group-text{
+  background-color: transparent;
+  border: 0px solid #ced4da;
+}
+.schedulefrm .input-group>.form-control:not(:first-child) {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.schedulefrm .input-group>.custom-select:not(:last-child), .schedulefrm .input-group>.form-control:not(:last-child) {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+/* .custom-select.form-control.timefld{
+  width: 50px !important;
+} */
+.groupnotification{
+width: 400px;
+}
+.schedulefrm textarea{
+  height: 196px;
+border-radius: 4px;
+border: solid 1px #d3d8e1;
+background-color:#fff;
+width: 100%;
+}
+.schedulemodal h2{
+font-size: 15px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #2e384d;
+position: relative;
+margin: 15px 0 30px 0;
+}
+.schedulemodal h2::before{
+  content: '';
+  background-color: #083ac8;
+  height: 4px;
+  width: 100px;
+  position: absolute;
+  left: 0;
+  bottom: -13px;
+}
+.schedulemodal .guests-list{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.schedulemodal .guests-list li{
+  position: relative;
+  display: flex;
+  align-items: center;
+  line-height: 15px;
+  margin-bottom: 15px;
+}
+.schedulemodal .guests-list li.check .fa-check{
+  position: absolute;
+  left: 17px;
+  color: green;
+  font-size: 8px;
+  background-color: #d9f7d9;
+  bottom: 0;
+  border-radius: 100%;
+  padding: 3px;
+}
+.schedulemodal .guests-list li span{
+  color: #4c5052;
+  font-size: 14px;
+}
+.schedulemodal .guests-list li i{
+  color: #e0e0e0;
+  font-size: 26px;
+  margin-right: 15px;
+}
+.schedulemodal .guests-list li .guestlink{
+  color: #8a8888;
+  font-size: 14px;
+  text-decoration: none;
+  padding-left: 51px;
+}
+.schedulemodal .modal-footer .btn-secondary{
+background-color: transparent;
+border: none;
+font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #083ac8;
+}
+.schedulemodal .modal-footer .btn-primary{
+  width: 106px;
+height: 40px;
+border-radius: 4px;
+border: solid 1px #083ac8;
+background-color: #083ac8;
+font-size: 13px;
+font-weight: bold;
+letter-spacing: 0.5px;
+text-align: center;
+color: #fff;
+}
+.taskmodal .btn-primary {
+  width: 100px;
+}
+.taskmodal .btn-secondary {
+  width: 100px;
+}
+@media (min-width: 992px){
+  .schedulemodal.modal-lg{
+      max-width: 1022px;
+  }
+}
+/**
+* Ideate modal styling ends
+**/
+
+
+
+.modelWidth {
+  width: 90%;
+  max-width: 90%;
+}
+
+
+
+
+
+.swal2-container {
+  z-index: 200000000000000000000 !important;
+}
+
+.swal-overlay  
+{
+    z-index: 100000000000 !important    
+}

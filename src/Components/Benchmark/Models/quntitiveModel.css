@@ -1,0 +1,60 @@
+question-td{
+    background: rgb(231, 108, 55);
+    border-right: 30px solid #fff;
+}
+.score-td{
+    background: rgb(217, 179, 1);
+}
+.bord-rightwhite{
+    border-right: 30px solid #fff;
+}
+.ques-anstable thead tr th{
+    padding: 5px 10px;
+    text-align: center;
+}
+.ques-anstable tbody tr td{
+    text-align: center; 
+}
+.ques-text {
+    font-weight: 600;
+    font-size: 21px;
+    color: #dc3545!important;
+}
+.q-label{
+    font-size: 27px;
+    font-weight: 600;
+}
+.ans-radio-div {
+    padding: 8px 20px;
+    font-size: 15px;
+}
+.ans-radio-div label {
+    color: #343a40;
+    cursor: pointer;
+    margin-bottom: 11px;
+    vertical-align: top;
+    margin-right: 17px;
+}
+.ans-radio-div input[type=radio] {
+    padding: 0;
+    margin-right: 6px;
+    width: 15px;
+    height: 15px;
+}
+.light-red-bg{
+    background-color: rgb(250, 226, 215);
+    padding: 15px 15px;
+    margin-top: 20px;
+    border-top: 20px solid #fff;
+}
+.score-valuetd-div{
+    background-color: rgb(240, 225, 153);
+    padding: 15px 15px;
+    margin-top: 20px;
+    border-top: 20px solid #fff;
+}
+.scoreno{
+    font-size: 35px;
+    font-weight: 600;
+    color: #343a40!important;
+}

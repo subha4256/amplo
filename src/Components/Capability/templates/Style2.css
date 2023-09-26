@@ -1,0 +1,50 @@
+.h-90{
+    height: 90px !important;
+}
+.h-56{
+    height: 56px !important;
+}
+.h-56.class2-1{
+    height: 60px !important;
+}
+/* .class2-2{
+
+} */
+.two-box-custom-second.class2-2 {
+    height: 228px !important;
+}
+.two-box-custom{
+    position: relative;
+    height: 215px;
+    width: 48px;
+}
+.two-box-custom .vtext{
+    position: absolute;
+    top: 8px;
+    height: 50px;
+    width: 215px;
+    margin: 0;
+    left: 40px;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+.fl-sl3{
+    position: absolute;
+    right: 6px;
+    bottom: 5px;
+    z-index: 9;
+}
+.rotate-textbox{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 0;
+    transform: translate(90deg);
+    left: -55px;
+    bottom: 80px;
+}
+.two-box-custom-second{
+    height: 220px !important;
+}
+.lineclamp2{
+    -webkit-line-clamp:2 !important;
+}
